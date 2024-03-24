@@ -1,21 +1,21 @@
-# C--MiniShell
+# C--MiniShell 🐚
 
-C--MiniShell is a minimal shell implementation in C designed by Waleed Gudah. It mimics some of the basic functionalities of a traditional Unix shell, including command execution, environment variable expansion, and basic I/O redirection.
+C--MiniShell is a minimal shell implementation in C, designed by Waleed Gudah 🧑‍💻. It mimics some of the basic functionalities of a traditional Unix shell, including command execution, environment variable expansion, and basic I/O redirection.
 
-## Features
+## Features ✨
 
-- Execute system commands
-- I/O redirection (>, >>, <)
-- Background process execution (&)
-- Environment variable support
+- Execute system commands 💻
+- I/O redirection (>, >>, <) 📂
+- Background process execution (&) 🚀
+- Environment variable support 🌎
 - Internal commands:
-  - `cd`: Change the current working directory
-  - `echo`: Print text to the standard output
-  - `exit`: Exit the shell
+  - `cd`: Change the current working directory 📁
+  - `echo`: Print text to the standard output 📢
+  - `exit`: Exit the shell 🚪
 
-## Getting Started
+## Getting Started 🚶‍♂️
 
-### Prerequisites
+### Prerequisites 📋
 
 Ensure you have GCC (GNU Compiler Collection) installed on your system to compile the source code. You can check if GCC is installed by running:
 
@@ -23,7 +23,7 @@ Ensure you have GCC (GNU Compiler Collection) installed on your system to compil
 gcc --version
 ```
 
-### Installation
+### Installation 🔧
 
 1. Clone the repository to your local machine:
 
@@ -49,7 +49,7 @@ gcc shell.c -o minishell
 ./minishell
 ```
 
-## Usage
+## Usage 📖
 
 After launching `C--MiniShell`, you will be greeted with a prompt `Waleed's Shell:`. You can start typing commands just like you would in any other shell. Here are some examples:
 
@@ -77,10 +77,10 @@ echo "Hello, World!" > hello.txt
 sleep 10 &
 ```
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! If you have suggestions for improving C--MiniShell, please open an issue or submit a pull request.
 
-## License
+## License 📄
 
 This project is licensed under the MIT License - see the LICENSE file for details.
